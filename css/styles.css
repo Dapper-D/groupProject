@@ -372,6 +372,11 @@ body {
     width: 300px;
     height: 250px;
   }
+  .services-display{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -414,6 +419,10 @@ body {
     height: 200px;
   }
 
+  .logo{
+    display: inline-block;
+    width: 200px;
+  }
   #hero {
     height: 20rem;
     width: 100%;
@@ -470,5 +479,15 @@ body {
 
   #review {
     width: 300px;
+  }
+  .services-display{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 200px;
+  }
+  .aboutus-information{
+    margin-right: 200px;
+    width: fit-content;
   }
 }
