@@ -186,7 +186,28 @@ body {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
+.instalation-services li{
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.instalation-services img{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 50px;
+}
+.maintenance-services li{
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.maintenance-services img{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 50px;
+}
 /* Responsive media design*/
 @media only screen and (max-width: 480px) {
   .nav {
@@ -222,6 +243,9 @@ body {
   }
   #hero {
     height: 20rem;
+  }
+  #hero video{
+    height: 125px;
   }
   .services h2 {
     font-size: 20px;
@@ -294,6 +318,9 @@ body {
   #hero {
     height: 20rem;
     width: 100%;
+  }
+  #hero video{
+    height: 150px;
   }
   .services h2 {
     font-size: 20px;
