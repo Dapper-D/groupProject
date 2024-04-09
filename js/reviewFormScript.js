@@ -20,6 +20,6 @@ document.getElementById("reviewForm").addEventListener("submit", function (event
     } else {
         reviewsSection.insertAdjacentHTML('beforeend', containerHTML);
     }
-
+    alert('Your review was sent successfully'); 
     document.getElementById("reviewForm").reset();
 });
