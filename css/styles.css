@@ -45,9 +45,12 @@ body {
   font-weight: bold;
   transition: 0.7s;
 }
-
-.nav ul li a:visited {
+.nav-link:visited {
   color: #9190f3;
+}
+
+.nav-link.active {
+  color: aqua; 
 }
 
 .nav ul li a:hover {
